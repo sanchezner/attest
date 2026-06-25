@@ -1,0 +1,148 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: system-ui, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+}
+.brand {
+  font-weight: 700;
+}
+.title-context {
+  font-size: 0.5em;
+  font-weight: 400;
+  margin-left: 0.4em;
+}
+.title-context-slug {
+  text-decoration: underline dotted;
+}
+
+.meta {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.refresh-btn {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.refresh-btn:hover {
+  background: #f5f5f5;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.status-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.status-table th,
+.status-table td {
+  text-align: left;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.status-table th {
+  font-weight: 600;
+  color: #444;
+  border-bottom-width: 2px;
+}
+
+.artifact-id {
+  font-family: ui-monospace, monospace;
+  font-size: 0.85rem;
+}
+
+.reason {
+  color: #555;
+  max-width: 320px;
+}
+
+.timestamp {
+  color: #666;
+  white-space: nowrap;
+}
+
+.empty {
+  color: #666;
+  font-style: italic;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.badge-ok {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge-violated {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.badge-missing {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.spinner {
+  display: inline-block;
+  border: 2px solid #e5e5e5;
+  border-top-color: #444;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+.spinner-md {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.spinner-sm {
+  width: 0.875rem;
+  height: 0.875rem;
+  border-width: 1.5px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loading-state {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}

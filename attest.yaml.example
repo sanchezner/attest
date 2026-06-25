@@ -1,0 +1,4 @@
+project: demo
+api_url: http://localhost:8000
+token_env: DEMO_BRONZE_TOKEN
+reporter: bronze-worker
