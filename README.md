@@ -1,6 +1,6 @@
 # attest
 
-Contract observability for ML pipelines. Workers report artifact state and the dashboard shows live contract status.
+Know whether your pipeline outputs are healthy. Workers report what they produced; attset tracks each artifact as ok, violated, or missing.
 
 ## Architecture
 
